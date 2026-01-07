@@ -120,6 +120,7 @@ INSIGHTS:
               <Button
                 variant="outline"
                 className="border-border text-foreground hover:bg-secondary"
+                onClick={() => window.open('https://github.com/mr-haseen-ullah/IDA_Assignment/blob/main/Retail%20Data%20Analysis%20Documentation.md', '_blank')}
               >
                 View Documentation
               </Button>
