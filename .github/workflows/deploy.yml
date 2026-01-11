@@ -34,6 +34,8 @@ jobs:
           pnpm install
 
       - name: Build
+        env:
+          VITE_ANALYTICS_ENDPOINT: ${{ secrets.VITE_ANALYTICS_ENDPOINT }}
         run: |
           cd ida_retail_dashboard
           npm run build
